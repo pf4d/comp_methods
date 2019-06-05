@@ -1,0 +1,78 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{varga_2000}{book}{}
+    \name{author}{1}{}{%
+      {{hash=VRH}{%
+         family={Varga},
+         familyi={V\bibinitperiod},
+         given={Richard\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag Berlin Heidelberg}%
+    }
+    \strng{namehash}{VRH1}
+    \strng{fullhash}{VRH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{year}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{edition}{2nd Edition}
+    \field{title}{Matrix Iterative Analysis}
+    \field{year}{2000}
+  \endentry
+
+  \entry{zienkiewicz_2000}{book}{}
+    \name{author}{2}{}{%
+      {{hash=ZOC}{%
+         family={{Zienkiewicz}},
+         familyi={Z\bibinitperiod},
+         given={O.\bibnamedelima C.},
+         giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=TRL}{%
+         family={{Taylor}},
+         familyi={T\bibinitperiod},
+         given={R.\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Butterworth-Heinemann}%
+    }
+    \strng{namehash}{ZOCTRL1}
+    \strng{fullhash}{ZOCTRL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{year}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{edition}{5th edition}
+    \field{isbn}{0 7506 5049 4}
+    \field{title}{The Finite Element Method}
+    \field{volume}{1: The Basis}
+    \field{year}{2000}
+  \endentry
+\enddatalist
+\endinput
