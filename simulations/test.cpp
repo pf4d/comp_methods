@@ -44,6 +44,8 @@ int main()
 	vector<unsigned int> cols{0,0,1,2,1,2,3,2,3};
 	EvanMatrix A(vec, rows, cols, 4);
 
+	A.print();
+
 	// create the solution vector :
 	vector<double> x(b.size(), 0.0);
 

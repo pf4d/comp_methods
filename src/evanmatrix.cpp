@@ -15,7 +15,7 @@ using namespace std;
 EvanMatrix::EvanMatrix(vector<double>       A,
                        vector<unsigned int> rows,
                        vector<unsigned int> cols,
-											 unsigned int         n)
+                       unsigned int         n)
 {
 	this->n = n;             // dimension of the square matrix
 
