@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -34,7 +34,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2000}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{V}
     \field{sortinithash}{V}
     \field{edition}{2nd Edition}
@@ -65,7 +65,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2000}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
     \field{edition}{5th edition}

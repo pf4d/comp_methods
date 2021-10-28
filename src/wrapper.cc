@@ -37,25 +37,25 @@ PYBIND11_MODULE(comp_methods, m)
 		.def("get_dim",    &EvanMatrix::get_dim)
 		.def("get_n",      &EvanMatrix::get_n);
 
-		py::class_<DirichletBC>(m, "DirichletBC")
-			.def(py::init<double, double, vector<double> &>())
-			.def("get_val",      &DirichletBC::get_val)
-			.def("eval",         &DirichletBC::eval)
-			.def("form_indices", &DirichletBC::form_indices)
-			.def("apply",
-			     (void (DirichletBC::*)(vector<double> &)) &DirichletBC::apply)
-			.def("apply",
-			     (void (DirichletBC::*)(EvanMatrix &)) &DirichletBC::apply);
+	py::class_<DirichletBC>(m, "DirichletBC")
+		.def(py::init<double, double, vector<double> &>())
+		.def("get_val",      &DirichletBC::get_val)
+		.def("eval",         &DirichletBC::eval)
+		.def("form_indices", &DirichletBC::form_indices)
+		.def("apply",
+		     (void (DirichletBC::*)(vector<double> &)) &DirichletBC::apply)
+		.def("apply",
+		     (void (DirichletBC::*)(EvanMatrix &)) &DirichletBC::apply);
 
-		py::class_<Topology>(m, "Topology")
-			.def(py::init<unsigned int, double, double>())
-			.def("number_of_elements", &Topology::number_of_elements)
-			.def("number_of_vertices", &Topology::number_of_vertices)
-			.def("coordinates",        &Topology::coordinates)
-			.def("cell_widths",        &Topology::cell_widths)
-			.def("x_min",              &Topology::x_min)
-			.def("x_max",              &Topology::x_max)
-			.def("width",              &Topology::width);
+	py::class_<Topology>(m, "Topology")
+		.def(py::init<unsigned int, double, double>())
+		.def("number_of_elements", &Topology::number_of_elements)
+		.def("number_of_vertices", &Topology::number_of_vertices)
+		.def("coordinates",        &Topology::coordinates)
+		.def("cell_widths",        &Topology::cell_widths)
+		.def("x_min",              &Topology::x_min)
+		.def("x_max",              &Topology::x_max)
+		.def("width",              &Topology::width);
 }
 
 
